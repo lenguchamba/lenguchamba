@@ -2512,34 +2512,6 @@ border-radius: 10px;
      margin-top: 90px;
  }
  
-/* Ajustes generales para imágenes dentro del carrusel */
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Asegura que las imágenes cubran el contenedor sin deformarse */
-    position: relative;
-    z-index: 0;
-    filter: brightness(50%); /* Reduce el brillo para que el texto sea legible */
-}
-
-/* Asegura que el contenido del carrusel se alinee correctamente */
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
-    display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center;     /* Centra el contenido verticalmente */
-}
-
-/* Estilos para la leyenda del carrusel (centrada y legible) */
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centra el texto */
-    color: white;
-    z-index: 1;
-    text-align: center; /* Centra el texto dentro del contenedor */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar legibilidad */
-}
 
  .carousel-item {
      position: relative;
