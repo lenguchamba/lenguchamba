@@ -480,11 +480,7 @@ ul.top_icon li:last-child {
 ul.top_icon li a {
      color: #fff;
 }
-.menu-area-main {
-    display: flex;             /* Usamos flexbox para un control flexible del diseño */
-    justify-content: space-between; /* Alinea los elementos a los extremos en pantallas grandes */
-    width: 100%;               /* Asegura que ocupe todo el ancho disponible */
-    box-sizing: border-box;     /* Incluye el padding en el cálculo del ancho */
+
 }
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
@@ -2591,7 +2587,7 @@ body {
      background-color: #ffffff;
      color: #ffffff;
      text-align: center;
-    
+     padding: 10px;
  }
  
  .titulo {
